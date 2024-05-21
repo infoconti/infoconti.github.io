@@ -1,3 +1,3 @@
 # Das ist meine eigene Website.
 
-<b>Wie öffne ich sie?</b>
+Um sie zu sehen, öffne: https://www.infoconti.github.io
