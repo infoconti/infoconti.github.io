@@ -24,6 +24,22 @@
             margin-left: 220px;
             padding: 20px;
         }
+        .google-search {
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px;
+        }
+        .google-search input[type="text"] {
+            width: 200px;
+            padding: 5px;
+        }
+        .google-search input[type="submit"] {
+            background-color: #4285f4;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -31,13 +47,19 @@
         <h1>Seitenleiste</h1>
         <ul>
             <li><a href="index.html">Startseite</a></li>
-            <li><a href="onlinegames.html">Online Spiele</a></li>
-            <li><a href="tutorials.html">Tutorials</a></li>
+            <li><a href="about.html">Über uns</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
         </ul>
     </div>
     <div class="content">
         <h1>Willkommen auf unserer Website!</h1>
         <p>Hier ist der Hauptinhalt...</p>
+        <div class="google-search">
+            <form action="https://www.google.com/search" method="get">
+                <input type="text" name="q" placeholder="Google durchsuchen">
+                <input type="submit" value="Suchen">
+            </form>
+        </div>
     </div>
 </body>
 </html>
